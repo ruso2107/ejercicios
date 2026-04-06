@@ -1,0 +1,18 @@
+# sentencias
+temperatura = int(input("Indica la temperatura: "))
+
+if temperatura > 28:
+    print("Esta haciendo calor ")
+else:
+    print("hace frio")
+    
+if temperatura > 28:
+    print("Esta haciendo calor ")
+elif temperatura > 20:
+    print("es un dia agradable")
+elif temperatura > 10:
+    print("hace un poco de frio")
+else:
+    print("hace frio, brrrr")
+
+print("proceso concluido")
